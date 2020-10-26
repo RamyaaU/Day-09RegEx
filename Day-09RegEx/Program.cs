@@ -11,6 +11,12 @@ namespace Day_09RegEx
             string firstName;
             //pattern 
             var regex = "^[A-Z]{1}[a-z]{2,20}$";
+
+            // <summary>
+            /// Validates the first name.
+            /// </summary>
+            /// <param name="firstName">The last name.</param>
+           
             //userinput
             Console.WriteLine("Enter first name: ");
             firstName = Console.ReadLine();
